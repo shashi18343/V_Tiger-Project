@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+	<groups>
+		<run>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="testNG_PACKAGE.CreateProducts_TS_04_TestNG"/>
+      <class name="testNG_PACKAGE.CreateLead_TS_02_TestNG"/>
+      <class name="testNG_PACKAGE.OrgToRecyclebin_TS_03_TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
